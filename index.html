@@ -15,13 +15,13 @@
 }
 
 .node text {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 path.link {
   fill: none;
   stroke: #ccc;
-  stroke-width: 1.5px;
+  stroke-width: 4.5px;
 }
 
     </style>
@@ -36,7 +36,7 @@ path.link {
     <script type="text/javascript">
 
 var m = [20, 60, 20, 60],
-    w = 1400 - m[1] - m[3],
+    w = 1600 - m[1] - m[3],
     h = 800 - m[0] - m[2],
     i = 0,
     root;
@@ -67,10 +67,12 @@ d3.json("flare.json", function(json) {
 
   // Initialize the display to show a few nodes.
   root.children.forEach(toggleAll);
-  toggle(root.children[1]);
-  toggle(root.children[1].children[2]);
-  toggle(root.children[9]);
-  toggle(root.children[9].children[0]);
+  toggle(root.children[0]);
+   toggle(root.children[1]);
+    toggle(root.children[2]);
+ // toggle(root.children[1].children[2]);
+ // toggle(root.children[9]);
+ // toggle(root.children[9].children[0]);
 
   update(root);
 });
@@ -82,7 +84,7 @@ function update(source) {
   var nodes = tree.nodes(root).reverse();
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 180; });
+  nodes.forEach(function(d) { d.y = d.depth * 215; });
 
   // Update the nodes…
   var node = vis.selectAll("g.node")
@@ -99,7 +101,7 @@ function update(source) {
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeEnter.append("svg:text")
-      .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
+      .attr("x", function(d) { return d.children || d._children ? -12 : 12; })
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
@@ -111,7 +113,7 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 4.5)
+      .attr("r", 8.5)
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeUpdate.select("text")
