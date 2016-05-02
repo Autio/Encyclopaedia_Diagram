@@ -3,7 +3,7 @@
  "name": "Idea",
  "children": [
   {
-   "name": "Logical Idea",
+   "name": "Logic",
    "description" : "",
    "children": [
     {
@@ -76,9 +76,10 @@
     {
      "name": "Essence",
      "children": [
-      {"name": "Essence as Ground of Existence",
+      {"name": "Essence",
+	   "description" : "Essence as Ground of Existence",
 	   "children": [
-	   {"name": "The Pure Principles or Categories of Reflection",
+	   {"name": "The Categories of Reflection",
 	   	"children": [
 			{"name": "Identity"},
 			{"name": "Difference",
@@ -166,7 +167,7 @@
 			]	
 			},
 			
-	     	{"name": "The of the Notion",
+	     	{"name": "The Judgment of the Notion",
 			"children": 
 			[
 				{"name": "The Assertoric Judgment"},
