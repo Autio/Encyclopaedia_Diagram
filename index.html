@@ -7,6 +7,13 @@
     <script type="text/javascript" src="d3/d3.layout.js"></script>
     <style type="text/css">
 
+	html {
+        overflow-x: scroll;
+	    overflow: scroll;
+	   	pointer-events: all;
+}
+
+	
 .node circle {
   cursor: pointer;
   fill: #fff;
@@ -29,15 +36,16 @@ path.link {
   <body>
     <div id="body">
       <div id="footer">
-        d3.layout.tree
-        <div class="hint">click or option-click to expand or collapse</div>
+        Diagram of the Hegelian System <br>
+		(following the Encyclopaedia of Philosophical Sciences)
+        <div class="hint">click to expand or collapse</div>
       </div>
     </div>
     <script type="text/javascript">
 
 var m = [20, 60, 20, 60],
-    w = 1600 - m[1] - m[3],
-    h = 800 - m[0] - m[2],
+    w = 2800 - m[1] - m[3],
+    h = 2800 - m[0] - m[2],
     i = 0,
     root;
 
@@ -66,10 +74,10 @@ d3.json("flare.json", function(json) {
   }
 
   // Initialize the display to show a few nodes.
-  root.children.forEach(toggleAll);
-  toggle(root.children[0]);
-   toggle(root.children[1]);
-    toggle(root.children[2]);
+  //root.children.forEach(toggleAll);
+ // toggle(root.children[0]);
+ // toggle(root.children[1]);
+ // toggle(root.children[2]);
  // toggle(root.children[1].children[2]);
  // toggle(root.children[9]);
  // toggle(root.children[9].children[0]);
@@ -84,7 +92,7 @@ function update(source) {
   var nodes = tree.nodes(root).reverse();
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 215; });
+  nodes.forEach(function(d) { d.y = d.depth * 280; });
 
   // Update the nodes…
   var node = vis.selectAll("g.node")
@@ -165,7 +173,11 @@ function update(source) {
     d.x0 = d.x;
     d.y0 = d.y;
   });
+  
+
+			  
 }
+
 
 // Toggle children.
 function toggle(d) {
