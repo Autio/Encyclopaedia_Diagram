@@ -130,7 +130,129 @@
     {
      "name": "Notion",
      "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
+      {"name": "The Subjective Notion", 
+	  "children": [
+	   {"name": "The Notion as Notion",
+	   "children": [
+			{"name": "The Universal"},
+		    {"name": "The Particular"},
+		    {"name": "The Singular"}
+	   ]
+	   },
+	   {"name": "The Judgment", 
+	   "children": [
+	   		{"name": "The Qualitative Judgment",
+			"children": 
+			[
+				{"name": "The Affirmative Judgment"},
+				{"name": "The Negative Judgment"},
+				{"name": "The Infinite Judgment"}
+			]
+			},
+			{"name": "The Judgment of Reflection",
+			"children": 
+			[
+				{"name": "The Singular Judgment"},
+				{"name": "The Particular Judgment"},
+				{"name": "The Universal Judgment"}
+			]
+			},
+			{"name": "The Judgment of Necessity",
+			"children": 
+			[
+				{"name": "The Categorical Judgment"},
+				{"name": "The Hypothetical Judgment"},
+				{"name": "The Disjunctive Judgment"}
+			]	
+			},
+			
+	     	{"name": "The of the Notion",
+			"children": 
+			[
+				{"name": "The Assertoric Judgment"},
+				{"name": "The Problematic Judgment"},
+				{"name": "The Apodeictic Judgment"}
+			]	
+			}
+		
+	   ]
+	   },
+   	   {"name": "The Syllogism",
+	   	   "children": [
+	   		{"name": "The Qualitative Syllogism",
+			"children": 
+			[
+				{"name": "The First Figure"},
+				{"name": "The Second Figure"},
+				{"name": "The Third Figure"},
+				{"name": "The Mathematical Syllogism"}
+			]
+			},
+			{"name": "The Syllogism of Reflection",
+			"children": 
+			[
+				{"name": "The Syllogism of Allness"},
+				{"name": "The Syllogism of Induction"},
+				{"name": "The Syllogism of Analogy"}
+			]
+			},
+			
+			{"name": "The Syllogism of Necessity",
+			"children": 
+			[
+				{"name": "The Categorical Syllogism"},
+				{"name": "The Hypothetical Syllogism"},
+				{"name": "The Disjunctive Syllogism"}
+			]
+			}
+	     ]
+	    }
+	   ]
+	  },
+	   
+	  {"name": "The Object, or the Objective Notion", 
+	  "children": [
+		{"name": "Mechanism",
+		"children": [
+			{"name": "Formal Mechanism"},
+			{"name": "Mechanism with Affinity"},
+			{"name": "Absolute Mechanism"}
+		]
+		},
+		{"name": "Chemism"},
+		{"name": "Teleology",
+		"children": [
+			{"name": "The Subjective End"},
+			{"name": "The Means"},
+			{"name": "The Realized End"}
+		 ]
+		}
+	   ]
+	  },
+	  
+	  {"name": "The Idea", 
+	  "children": [
+		{"name": "Life",
+		"children": [
+			{"name": "The Living Individual"},
+			{"name": "The Life-Process"},
+			{"name": "The Kind"}
+		]
+		},
+		{"name": "Cognition",
+			"children": [
+			{"name": "Cognition Proper - The True"},
+			{"name": "Volition - The Good"}
+		]
+		
+		},
+		{"name": "The Absolute Idea"}
+	   ]
+	  }
+	  
+	  
+	  
+	  
      ]
     }
    ]
