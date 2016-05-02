@@ -11,13 +11,66 @@
      "children": [
       {"name": "Quality", "size":"",
 	  "children": [
+	   {"name": "Being", 
+	   "children": [
 	   {"name": "Being"},
-	   {"name": "Determinate Being"},
-	   {"name": "Being-for-self"}
+	   {"name": "Nothing"},
+	   {"name": "Becoming"}
+	   ]
+	   },
+	   {"name": "Determinate Being",
+	   "children": [
+	   {"name": "Quality"},
+	   {"name": "Limit", 
+	   "children": [
+	   {"name": "The Finite"},
+	   {"name": "Alteration"},	   
+	   {"name": "The Spurious Infinite"}	   
+	   ]
+	   },
+	   {"name": "The True Infinite"}
+	   ] 
+	   },
+	   {"name": "Being-for-self", 
+	   "children":[
+	   {"name": "The One"},
+	   {"name": "The Many"},	   
+	   {"name": "Repulsion and Attraction"}	
+	   ]
+	   }
 	  ]},
 	  
-      {"name": "Quantity", "size":"" },
-      {"name": "Measure", "size":"" }
+      {"name": "Quantity", "size":"", 
+	  "children":[
+	  {"name": "Pure Quantity", "children":[
+	   {"name": "Pure Quantity"},
+	   {"name": "Continuous and Discrete Magnitude"},
+	   {"name": "Limitation of Quantity"}
+	  ]
+	  },
+	  {"name": "Quantum",
+	  "children":[
+	   {"name": "Quantum"},
+	   {"name": "Sum and Unity"},
+	   {"name": "Number"}
+	  ]
+	  },
+	  {"name": "Degree",
+	  "children":[
+	   {"name": "Degree"},
+	   {"name": "The Quantitative Infinite Progress"},
+	   {"name": "The Quantitative Ratio"}
+	  ]
+	  }	  
+	  ]
+	  },
+      {"name": "Measure", "size":"",
+	  "children":[
+	   {"name": "The Specific Quantum"},
+	   {"name": "The Measureless"},
+	   {"name": "The Infinite of Measure"}
+	  ]
+	  }
      ]
     },
     {
