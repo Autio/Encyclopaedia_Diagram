@@ -383,23 +383,184 @@
        "children": [
 		{"name": "Subjective Spirit",
 		"children": [
-			{"name": "Anthropology - The Soul"},
-			{"name": "Phenomenology - Consciousness"},
-			{"name": "Psychology - Mind"}
+			{"name": "Anthropology - The Soul",
+			"children": [
+							{"name": "The Natural Soul",
+							"children": [
+											{"name": "Physical Qualities"},
+											{"name": "Physical Alterations"},
+											{"name": "Sensibility"}
+										]
+							},
+							{"name": "The Feeling Soul",
+							"children": [
+											{"name": "The Feeling Soul in its Immediacy"},
+											{"name": "Self-Feeling"},
+											{"name": "Habit"}
+										]
+							},
+							{"name": "The Actual Soul"}
+						]
+			},
+			{"name": "Phenomenology - Consciousness",
+			"children": [
+							{"name": "Consciousness Proper",
+								"children": [
+											{"name": "Sensuous Consciousness"},
+											{"name": "Sense-Perception"},
+											{"name": "Intellect"}
+										]
+							},
+							{"name": "Self-Consciousness",
+								"children": [
+											{"name": "Appetite or Instinctive Drive"},
+											{"name": "Self-Consciousness Recognitive"},
+											{"name": "Universal Self-Consciousness"}
+										]
+							},
+							{"name": "Reason"}
+						]
+			},
+						
+			{"name": "Psychology - Mind",
+			"children": [
+							{"name": "Theoretical Mind",
+								"children": [
+											{"name": "Intuition"},
+											{"name": "Representation",
+											"children": [
+														{"name": "Recollection"},
+														{"name": "Imagination"},
+														{"name": "Memory"}
+													]
+											},
+											{"name": "Thinking"}
+										]},
+							{"name": "Practical Mind",
+								"children": [
+											{"name": "Practical Sense or Feeling"},
+											{"name": "The Impulses and Choice"},
+											{"name": "Happiness"}
+										]
+							},
+							{"name": "Free Mind"}
+						]
+			}
 		]
 		},
 		{"name": "Objective Spirit",
 			"children": [
-			{"name": "Abstract Right"},
-			{"name": "Morality"},
-			{"name": "Social Ethics"}
+			{"name": "Abstract Right",
+			"children": [
+							{"name": "Property"},
+							{"name": "Contract"},
+							{"name": "Wrong (Tort and Crime)"}
+						]
+			},
+			{"name": "Morality",
+			"children": [
+							{"name": "Purpose"},
+							{"name": "Intention and Well-Being"},
+							{"name": "Goodness and Wickedness"}
+						]
+			},
+			{"name": "Social Ethics",
+			"children": [
+							{"name": "The Family",
+								"children": [
+											{"name": "Marriage"},
+											{"name": "Family Means"},
+											{"name": "Dissolution of the Family"}
+										]
+							},
+							{"name": "Civil Society",
+								"children": [
+											{"name": "The System of Wants"},
+											{"name": "Administration of Justice"},
+											{"name": "Police and Corporation"}
+										]
+							},
+							{"name": "The State",
+								"children": [
+											{"name": "Constitution or Internal Polity",
+											"children": [
+														{"name": "The Monarch"},
+														{"name": "The Executive"},
+														{"name": "The Legislature"}
+											]
+										},
+											{"name": "International Law"},
+											{"name": "World History"}
+										]
+							}
+						]
+			}
 		]
 		
 		},
 		{"name": "Absolute Spirit",
 			"children": [
-			{"name": "Art"},
-			{"name": "Religion"},
+			{"name": "Art",
+			"children": [
+							{"name": "Beauty in General"},
+							{"name": "The Types of Art",
+							"children": [
+								{"name": "Symbolic Art"},
+								{"name": "Classical Art"},
+								{"name": "Romantic Art"}
+						]},
+							{"name": "The Particular Arts",
+						"children": [
+								{"name": "The Symbolic Art of Architecture"},
+								{"name": "The Classical Art of Sculpture"},
+								{"name": "The Romantic Arts",
+								"children": [
+											{"name": "Painting"},
+											{"name": "Music"},
+											{"name": "Poetry"}
+										]
+								}
+								]
+							}
+						]
+			},
+			{"name": "Religion",
+			"children": [
+							{"name": "Religion in General"},
+							{"name": "Definite Religion",
+							"children": [
+								{"name": "The Religion of Nature",
+								"children": [
+											{"name": "Magic"},
+											{"name": "The Religion of Substance",
+											"children": [
+														{"name": "Chinese Religion"},
+														{"name": "Hinduism"},
+														{"name": "Buddhism"}
+													]
+											},
+													
+											{"name": "Transition to the Religion of Spiritual Individuality",
+											"children": [
+											{"name": "Zoroastrianism"},
+											{"name": "Syrian Religion"},
+											{"name": "Egyptian Religion"}
+										    ]
+										}
+										]
+								},
+								{"name": "The Religion of Spiritual Individuality",
+								"children": [
+											{"name": "The Jewish Religion"},
+											{"name": "The Greek Religion"},
+											{"name": "The Roman Religion"}
+										]
+								}
+								]
+							},
+							{"name": "The Absolute Religion"}
+						]
+			},
 			{"name": "Philosophy"}
 		]
 		}
