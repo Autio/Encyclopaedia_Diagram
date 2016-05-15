@@ -158,11 +158,11 @@ wheelvis{
 
 <div style="width:100%; height:1100px;"></div>
 
-<div id="footer" class="footer" style="position:absolute; bottom:0px; left:10px;">
+<div id="footer" class="footer" style="position:absolute; bottom:0px; left:10px; color="black";">
 </div>
 
-    <p>
-        P.A. 2015 | <a href="http://autio.github.io//">GitHub</a> |
+    <p style="color:black;">
+        P.A. 2016 | <a href="http://autio.github.io//">GitHub</a> |
         <a href="http://twitter.com/archbang85/">Twitter</a> |<br />An interactive visualisation of  Hegel's System following the Encyclopaedia of Philosophical Sciences<br />
         Code: D3.js based on the <a href="https://www.jasondavies.com/coffee-wheel/">Coffee Flavour Wheel</a> by J. Davies<br />
         <br /><a href="https://www.marxists.org/reference/archive/hegel/">Further resources on Hegel</a><br />Feedback Welcome
@@ -191,7 +191,7 @@ var w =  1100
     r = w / 2,
     x = d3.scale.linear().range([0,2 * Math.PI]),
 	// Exponent sets radial size of arc parts
-    y = d3.scale.pow().exponent(1.25).domain([0, 1]).range([0, r]),
+    y = d3.scale.pow().exponent(1.25).domain([0, 1]).range([0, r + 500]),
     p = 5,
 	currentDepth = 0;
     duration = 1250; // Time for transitions between clicks
@@ -876,10 +876,10 @@ readJson(JSON.stringify(jsonData), function(json) {
 		depthDiff = d.depth - currentDepth;
 		
 		if (depthDiff > 3) {
-			return "0.76em";
+			return "1em";
 		}
 		else if (depthDiff > 2){
-			return "0.8em";
+			return "1em";
 		} 
 		else if (depthDiff > 1) {
 			return "1em";
@@ -892,22 +892,23 @@ readJson(JSON.stringify(jsonData), function(json) {
         var multiline = (d.name || "").split(" ").length > 1,
             angle = x(d.x + d.dx / 2) * 180 / Math.PI - 90,
 			rotate = 0
-			if(d.depth < 4)
+			// adjust only visible texts
+			if(d.depth < 10)
 			{
 				if(angle > 90)
 				{
-					rotate = angle + (multiline ? 3.8 : 0); 
+					rotate = angle + (multiline ? 1: 0); 
 				} else {
-					rotate = angle + (multiline ? -3.8 : 0); 
+					rotate = angle + (multiline ? -1 : 0); 
 				}
 									
 			} else {
 			
 			if(angle > 90)
 				{
-					rotate = angle + (multiline ? 0.2 : 0); 
+					rotate = angle + (multiline ? 1: 0); 
 				} else {
-					rotate = angle + (multiline ? -0.2 : 0); 
+					rotate = angle + (multiline ? -1: 0); 
 				}
 			
 			}
@@ -962,7 +963,7 @@ tooltip.transition()
 		 
 	textEnter.append("tspan")
 		  .attr("x", 0)
-		  .attr("dy", "0.6em") // Height adjustment should depend on font-size
+		  .attr("dy", "1em") // Height adjustment should depend on font-size
 		  .text(function(d) { 
 			  t = (d.depth ? d.name.split(" ")[1] || "" : "");
 	
@@ -986,7 +987,7 @@ tooltip.transition()
 	
 	textEnter.append("tspan")
 		  .attr("x", 0)
-		  .attr("dy", "1.22em")
+		  .attr("dy", "1em")
 		  .text(function(d) { 
 			  t = (d.depth ? d.name.split(" ")[1] || "" : "");
 	
@@ -1009,7 +1010,7 @@ tooltip.transition()
 		  
 	textEnter.append("tspan")
 		  .attr("x", 0)
-		  .attr("dy", "1.24em")
+		  .attr("dy", "1em")
 		  .attr("id", "level3")
 		  //.attrTween("transform", 0.0)
 		  .text(function(d) { 
@@ -1031,7 +1032,7 @@ tooltip.transition()
 		  
 	textEnter.append("tspan")
 		  .attr("x", 0)
-		  .attr("dy", "1.23em")
+		  .attr("dy", "1em")
 		  .attr("id", "level3")
 		  //.attrTween("transform", 0.0)
 		  .text(function(d) { 
@@ -1073,13 +1074,16 @@ tooltip.transition()
 
   function dblclick(d)
   {
+  /*
   		newUrl = "mainText.html#" + d.url;
 		var divEl = document.getElementById("bookText");
 		var objEl = document.getElementById("bookTextObject")
 		objEl.data = newUrl;
 		divEl.innerHTML = divEl.innerHTML;
 		return;
+		*/
   }
+  
   function click(d) {
 	// Navigate to url of text if depth exceeded
 	currentDepth = d.depth;
@@ -1094,7 +1098,7 @@ tooltip.transition()
 		//.style('left', w/2 - 10   + 'px');
 	}
 	
-	// go to url with ctrl click
+	/* go to url with ctrl click
 	if(d3.event.ctrlKey || d3.event.shiftKey)
 	{
 		newUrl = "mainText.html#" + d.url;
@@ -1105,7 +1109,7 @@ tooltip.transition()
 		//console.log(d.url);
 		return;
 	}
-  
+  */
     path.transition()
       .duration(duration)
       .ease("cirle")
@@ -1123,7 +1127,7 @@ tooltip.transition()
 		depthDiff = d.depth - currentDepth;
 		
 		if (depthDiff > 3) {
-			return "0.66em";
+			return "0.01em";
 		}
 		else if (depthDiff > 2){
 			return "0.8em";
@@ -1146,13 +1150,14 @@ tooltip.transition()
         return function() {
             angle = x(d.x + d.dx / 2) * 180 / Math.PI - 90,
 			rotate = 0
-			if(d.depth < 4)
+
+		if(d.depth < 4)
 			{
 				if(angle > 90)
 				{
-					rotate = angle + (multiline ? 3.8 : 0); 
+					rotate = angle + (multiline ? 0 : 0); 
 				} else {
-					rotate = angle + (multiline ? -3.8 : 0); 
+					rotate = angle + (multiline ? -0 : 0); 
 				}
 									
 			} else {
@@ -1170,9 +1175,9 @@ tooltip.transition()
 				} else {
 					if(angle > 90)
 						{
-							rotate = angle + (multiline ? 3 : 0); 
+							rotate = angle + (multiline ? 0 : 0); 
 						} else {
-							rotate = angle + (multiline ? -3 : 0); 
+							rotate = angle + (multiline ? -0 : 0); 
 						}
 					
 					}
@@ -1237,14 +1242,16 @@ function arcTween(d) {
   var my = maxY(d),
       xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
       yd = d3.interpolate(y.domain(), [d.y, my]),
+	  
       yr = d3.interpolate(y.range(), [d.y ? 60 : 0, r]);
+
   return function(d) {
     return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
   };
 }
 
 function maxY(d) {
-  return d.children ? Math.max.apply(Math, d.children.map(maxY)) : d.y + d.dy;
+  return d.children  ? Math.max.apply(Math, d.children.map(maxY)) : d.y + d.dy;
 }
 
 // http://www.w3.org/WAI/ER/WD-AERT/#color-contrast

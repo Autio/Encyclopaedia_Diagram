@@ -1,0 +1,572 @@
+
+{
+ "name": "Idea",
+ "children": [
+  {
+   "name": "Logic",
+   "description" : "",
+   "children": [
+    {
+     "name": "Being",
+     "children": [
+      {"name": "Quality", "size":"",
+	  "children": [
+	   {"name": "Being", 
+	   "children": [
+	   {"name": "Being"},
+	   {"name": "Nothing"},
+	   {"name": "Becoming"}
+	   ]
+	   },
+	   {"name": "Determinate Being",
+	   "children": [
+	   {"name": "Quality"},
+	   {"name": "Limit", 
+	   "children": [
+	   {"name": "The Finite"},
+	   {"name": "Alteration"},	   
+	   {"name": "The Spurious Infinite"}	   
+	   ]
+	   },
+	   {"name": "The True Infinite"}
+	   ] 
+	   },
+	   {"name": "Being-for-self", 
+	   "children":[
+	   {"name": "The One"},
+	   {"name": "The Many"},	   
+	   {"name": "Repulsion and Attraction"}	
+	   ]
+	   }
+	  ]},
+	  
+      {"name": "Quantity", "size":"", 
+	  "children":[
+	  {"name": "Pure Quantity", "children":[
+	   {"name": "Pure Quantity"},
+	   {"name": "Continuous and Discrete Magnitude"},
+	   {"name": "Limitation of Quantity"}
+	  ]
+	  },
+	  {"name": "Quantum",
+	  "children":[
+	   {"name": "Quantum"},
+	   {"name": "Sum and Unity"},
+	   {"name": "Number"}
+	  ]
+	  },
+	  {"name": "Degree",
+	  "children":[
+	   {"name": "Degree"},
+	   {"name": "The Quantitative Infinite Progress"},
+	   {"name": "The Quantitative Ratio"}
+	  ]
+	  }	  
+	  ]
+	  },
+      {"name": "Measure", "size":"",
+	  "children":[
+	   {"name": "The Specific Quantum"},
+	   {"name": "The Measureless"},
+	   {"name": "The Infinite of Measure"}
+	  ]
+	  }
+     ]
+    },
+    {
+     "name": "Essence",
+     "children": [
+      {"name": "Essence",
+	   "description" : "Essence as Ground of Existence",
+	   "children": [
+	   {"name": "The Categories of Reflection",
+	   	"children": [
+			{"name": "Identity"},
+			{"name": "Difference",
+		     "children": [
+			 {"name": "Variety"},
+			 {"name": "Likeness and Unlikeness"},
+			 {"name": "Contrariety (Positive and Negative)"}
+			]
+			},
+			{"name": "The Ground"}
+		]
+	   },
+	   
+	   {"name": "Existence"},
+	   
+	   {"name": "The Thing",
+	   	"children": [
+		{"name": "The Thing and its Properties"},
+		{"name": "The Thing and Matters"},
+		{"name": "Matter and Form"}		
+		]}
+	   ]
+	  },
+	  
+      {"name": "Appearance",
+		  "children": [
+		  {"name": "The World of Appearance"},
+		  {"name": "Content and Form"},
+		  {"name": "Relation and Correlation", 
+			  "children": [
+			  {"name": "The Whole and the Parts"},
+			  {"name": "Force and Manifestation of Force"},
+			  {"name": "Inner and Outer"}
+			]
+		  }	  
+		]
+	  },
+	  
+      {"name": "Actuality",
+	  "children": [
+	   {"name": "Substance and Accident"},
+       {"name": "Cause and Effect"},
+	   {"name": "Reciprocity (Action and Reaction)"} 
+	  ]
+	  }
+
+     ]
+    },
+    {
+     "name": "Notion",
+     "children": [
+      {"name": "The Subjective Notion", 
+	  "children": [
+	   {"name": "The Notion as Notion",
+	   "children": [
+			{"name": "The Universal"},
+		    {"name": "The Particular"},
+		    {"name": "The Singular"}
+	   ]
+	   },
+	   {"name": "The Judgment", 
+	   "children": [
+	   		{"name": "The Qualitative Judgment",
+			"children": 
+			[
+				{"name": "The Affirmative Judgment"},
+				{"name": "The Negative Judgment"},
+				{"name": "The Infinite Judgment"}
+			]
+			},
+			{"name": "The Judgment of Reflection",
+			"children": 
+			[
+				{"name": "The Singular Judgment"},
+				{"name": "The Particular Judgment"},
+				{"name": "The Universal Judgment"}
+			]
+			},
+			{"name": "The Judgment of Necessity",
+			"children": 
+			[
+				{"name": "The Categorical Judgment"},
+				{"name": "The Hypothetical Judgment"},
+				{"name": "The Disjunctive Judgment"}
+			]	
+			},
+			
+	     	{"name": "The Judgment of the Notion",
+			"children": 
+			[
+				{"name": "The Assertoric Judgment"},
+				{"name": "The Problematic Judgment"},
+				{"name": "The Apodeictic Judgment"}
+			]	
+			}
+		
+	   ]
+	   },
+   	   {"name": "The Syllogism",
+	   	   "children": [
+	   		{"name": "The Qualitative Syllogism",
+			"children": 
+			[
+				{"name": "The First Figure"},
+				{"name": "The Second Figure"},
+				{"name": "The Third Figure"},
+				{"name": "The Mathematical Syllogism"}
+			]
+			},
+			{"name": "The Syllogism of Reflection",
+			"children": 
+			[
+				{"name": "The Syllogism of Allness"},
+				{"name": "The Syllogism of Induction"},
+				{"name": "The Syllogism of Analogy"}
+			]
+			},
+			
+			{"name": "The Syllogism of Necessity",
+			"children": 
+			[
+				{"name": "The Categorical Syllogism"},
+				{"name": "The Hypothetical Syllogism"},
+				{"name": "The Disjunctive Syllogism"}
+			]
+			}
+	     ]
+	    }
+	   ]
+	  },
+	   
+	  {"name": "The Objective Notion", 
+	  "children": [
+		{"name": "Mechanism",
+		"children": [
+			{"name": "Formal Mechanism"},
+			{"name": "Mechanism with Affinity"},
+			{"name": "Absolute Mechanism"}
+		]
+		},
+		{"name": "Chemism"},
+		{"name": "Teleology",
+		"children": [
+			{"name": "The Subjective End"},
+			{"name": "The Means"},
+			{"name": "The Realized End"}
+		 ]
+		}
+	   ]
+	  },
+	  
+	  {"name": "The Idea", 
+	  "children": [
+		{"name": "Life",
+		"children": [
+			{"name": "The Living Individual"},
+			{"name": "The Life-Process"},
+			{"name": "The Kind"}
+		]
+		},
+		{"name": "Cognition",
+			"children": [
+			{"name": "Cognition Proper - The True"},
+			{"name": "Volition - The Good"}
+		]
+		
+		},
+		{"name": "The Absolute Idea"}
+	   ]
+	  }
+	  
+	  
+	  
+	  
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Nature",
+    "children": [
+		{"name": "Mechanics",
+		"children": [
+			{"name": "Space and Time",
+				"children": [
+					{"name": "Space"},
+					{"name": "Time"},
+					{"name": "Motion"}
+				]
+			},
+			{"name": "Matter and Motion - Finite Mechanics",
+				"children": [
+					{"name": "Inertia"},
+					{"name": "Impact"},
+					{"name": "Fall"}	
+				]},
+			{"name": "Absolute Mechanics",
+				"children": [
+					{"name": "Gravitation"},
+					{"name": "The Solar System"},
+					{"name": "Transition to Physics"}
+				]
+			}
+		
+		]
+		},
+		{"name": "Physics",
+			"children": [
+			{"name": "Physics of Individuality in General",
+				"children": [
+					{"name": "The Free Physical Bodies",
+						"children": [
+							{"name": "Light - The Solar Centre"},
+							{"name": "Moon and Coments"},
+							{"name": "The Planets"}
+						]
+					},
+					{"name": "The Elements",
+						"children": [
+							{"name": "Air"},
+							{"name": "Fire and Water"},
+							{"name": "Earth"}
+						]
+						},
+					{"name": "The Elementary Process"}
+				]},
+			{"name": "Physics of Particular Individuality",
+			"children": [
+							{"name": "Specific Gravity"},
+							{"name": "Cohesion"},
+							{"name": "Sound"},
+							{"name": "Heat"}
+						]
+			},
+			{"name": "Physics of Total Individuality",
+			"children": [
+							{"name": "Figure",
+							"children": [
+								{"name": "Indeterminate Figure"},
+								{"name": "Magnetism"},
+								{"name": "Crystallography"}
+						]},
+							{"name": "The Particularization of the Individual Body",
+							"children": [
+								{"name": "Relation to Light",
+									"children": [
+										{"name": "Transparency"},
+										{"name": "Refraction"},
+										{"name": "Colour"}
+									]},
+								{"name": "Difference in Particular Corporality",
+									"children": [
+										{"name": "Smell"},
+										{"name": "Taste"}
+									]
+								},
+								{"name": "Electricity"}
+						]
+						},
+							{"name": "The Chemical Process"}
+						]
+			}
+		]
+		
+		},
+		{"name": "Organics",
+			"children": [
+			{"name": "The Terrestrial Organism",
+			"children": [
+							{"name": "History of the Earth"},
+							{"name": "Geology and Oryctognosy"},
+							{"name": "Life of the Earth",
+							"children": [
+											{"name": "Atmosphere"},
+											{"name": "Sea"},
+											{"name": "Continents"}
+										]}
+						]
+			},
+			{"name": "The Vegetable Organism",
+			"children": [
+							{"name": "Process of Formation"},
+							{"name": "Process of Assimilation"},
+							{"name": "Process of Reproduction"}
+						]
+			},
+			{"name": "The Animal Organism",
+			"children": [
+							{"name": "Formation of the Animal Organism"},
+							{"name": "Assimilation"},
+							{"name": "Reproduction"}
+						]
+			}
+		 
+		   ]
+		}
+	   ]
+  },
+  
+  {
+   "name": "Spirit",
+       "children": [
+		{"name": "Subjective Spirit",
+		"children": [
+			{"name": "Anthropology - The Soul",
+			"children": [
+							{"name": "The Natural Soul",
+							"children": [
+											{"name": "Physical Qualities"},
+											{"name": "Physical Alterations"},
+											{"name": "Sensibility"}
+										]
+							},
+							{"name": "The Feeling Soul",
+							"children": [
+											{"name": "The Feeling Soul in its Immediacy"},
+											{"name": "Self-Feeling"},
+											{"name": "Habit"}
+										]
+							},
+							{"name": "The Actual Soul"}
+						]
+			},
+			{"name": "Phenomenology - Consciousness",
+			"children": [
+							{"name": "Consciousness Proper",
+								"children": [
+											{"name": "Sensuous Consciousness"},
+											{"name": "Sense-Perception"},
+											{"name": "Intellect"}
+										]
+							},
+							{"name": "Self-Consciousness",
+								"children": [
+											{"name": "Appetite or Instinctive Drive"},
+											{"name": "Self-Consciousness Recognitive"},
+											{"name": "Universal Self-Consciousness"}
+										]
+							},
+							{"name": "Reason"}
+						]
+			},
+						
+			{"name": "Psychology - Mind",
+			"children": [
+							{"name": "Theoretical Mind",
+								"children": [
+											{"name": "Intuition"},
+											{"name": "Representation",
+											"children": [
+														{"name": "Recollection"},
+														{"name": "Imagination"},
+														{"name": "Memory"}
+													]
+											},
+											{"name": "Thinking"}
+										]},
+							{"name": "Practical Mind",
+								"children": [
+											{"name": "Practical Sense or Feeling"},
+											{"name": "The Impulses and Choice"},
+											{"name": "Happiness"}
+										]
+							},
+							{"name": "Free Mind"}
+						]
+			}
+		]
+		},
+		{"name": "Objective Spirit",
+			"children": [
+			{"name": "Abstract Right",
+			"children": [
+							{"name": "Property"},
+							{"name": "Contract"},
+							{"name": "Wrong (Tort and Crime)"}
+						]
+			},
+			{"name": "Morality",
+			"children": [
+							{"name": "Purpose"},
+							{"name": "Intention and Well-Being"},
+							{"name": "Goodness and Wickedness"}
+						]
+			},
+			{"name": "Social Ethics",
+			"children": [
+							{"name": "The Family",
+								"children": [
+											{"name": "Marriage"},
+											{"name": "Family Means"},
+											{"name": "Dissolution of the Family"}
+										]
+							},
+							{"name": "Civil Society",
+								"children": [
+											{"name": "The System of Wants"},
+											{"name": "Administration of Justice"},
+											{"name": "Police and Corporation"}
+										]
+							},
+							{"name": "The State",
+								"children": [
+											{"name": "Constitution or Internal Polity",
+											"children": [
+														{"name": "The Monarch"},
+														{"name": "The Executive"},
+														{"name": "The Legislature"}
+											]
+										},
+											{"name": "International Law"},
+											{"name": "World History"}
+										]
+							}
+						]
+			}
+		]
+		
+		},
+		{"name": "Absolute Spirit",
+			"children": [
+			{"name": "Art",
+			"children": [
+							{"name": "Beauty in General"},
+							{"name": "The Types of Art",
+							"children": [
+								{"name": "Symbolic Art"},
+								{"name": "Classical Art"},
+								{"name": "Romantic Art"}
+						]},
+							{"name": "The Particular Arts",
+						"children": [
+								{"name": "The Symbolic Art of Architecture"},
+								{"name": "The Classical Art of Sculpture"},
+								{"name": "The Romantic Arts",
+								"children": [
+											{"name": "Painting"},
+											{"name": "Music"},
+											{"name": "Poetry"}
+										]
+								}
+								]
+							}
+						]
+			},
+			{"name": "Religion",
+			"children": [
+							{"name": "Religion in General"},
+							{"name": "Definite Religion",
+							"children": [
+								{"name": "The Religion of Nature",
+								"children": [
+											{"name": "Magic"},
+											{"name": "The Religion of Substance",
+											"children": [
+														{"name": "Chinese Religion"},
+														{"name": "Hinduism"},
+														{"name": "Buddhism"}
+													]
+											},
+													
+											{"name": "Transition to the Religion of Spiritual Individuality",
+											"children": [
+											{"name": "Zoroastrianism"},
+											{"name": "Syrian Religion"},
+											{"name": "Egyptian Religion"}
+										    ]
+										}
+										]
+								},
+								{"name": "The Religion of Spiritual Individuality",
+								"children": [
+											{"name": "The Jewish Religion"},
+											{"name": "The Greek Religion"},
+											{"name": "The Roman Religion"}
+										]
+								}
+								]
+							},
+							{"name": "The Absolute Religion"}
+						]
+			},
+			{"name": "Philosophy"}
+		]
+		}
+	   ]
+  }
+  
+ ]
+}
